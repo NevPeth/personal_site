@@ -2,13 +2,52 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #2e2e2e;
+.App-container{
+  background-color: #ff8e8e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.about-me-header{
+  font-size: calc(20px + 2vmin);
+  margin: 0;
+}
+
+.about-me{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.about-me-text{
+  background-color: #67bdff;
+  text-align: left;
+  width: 80vw;
+  max-width: 892px;
+  font-weight: 500;
+  padding: 32px;
+  font-size: calc(18px + 3vmin);
+  border: 4px solid white;
+}
+
+.profile-pic {
+  width: 90vw;            
+  max-width: 600px;       
+  height: auto;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.projects-header {
+  font-size: calc(18px + 10vmin);
+  font-weight: bold;
 }
