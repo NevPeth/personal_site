@@ -6,7 +6,7 @@ function App() {
     <div className="App-container">
       <section id="about-me" className="about-me">
           <img
-            src="/img/iLikeApplejuice.png"
+            src={process.env.PUBLIC_URL + "/img/iLikeApplejuice.png"}
             alt="Profile Pic"
             className="profile-pic"
           />
