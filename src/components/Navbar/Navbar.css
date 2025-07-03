@@ -1,13 +1,21 @@
 .Navbar{
-    align-items: center;
-    background-color: #ff6f6f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center; /*background-color: #ff6f6f;*/
     min-height: 3vh;
     max-height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: background-color 0.5s ease;
     justify-content: center;
     color: white;
+}
+
+.Navbar-scrolled {
+  background-color: #ff6f6f; /* color after scrolling */
 }
 
 .Navbar a{

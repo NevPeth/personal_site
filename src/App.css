@@ -3,7 +3,8 @@
 }
 
 .App-container{
-  background-color: #ff8e8e;
+  margin-top: 70px;
+  margin-bottom: 100px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@
   gap: 2rem;
   flex-wrap: wrap;
   margin: 2rem 0;
+  margin-bottom: 200px;
 }
 
 .about-me-text{
