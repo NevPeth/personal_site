@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    align-items: center; /*background-color: #ff6f6f;*/
+    align-items: center;
     min-height: 3vh;
     max-height: 50px;
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .Navbar-scrolled {
-  background-color: #ff6f6f; /* color after scrolling */
+  background-color: #ff6f6f;
 }
 
 .Navbar a{
@@ -25,13 +25,24 @@
 
 ul li{
     display:inline-block;
-    margin: 0px calc(3vmin);
     font-weight: 600;
     font-size: calc(16px + 1vmin);
+    margin: 0px calc(2vmin);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     cursor: pointer;
+}
+
+.Navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
