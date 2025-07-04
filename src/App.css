@@ -31,7 +31,7 @@
 }
 
 .about-me-text{
-  background-color: #67bdff;
+  background-color: #00c2e8;
   text-align: left;
   width: 80vw;
   max-width: 892px;
@@ -50,6 +50,7 @@
 }
 
 .projects-header {
-  font-size: calc(18px + 10vmin);
+  font-size: 8vmin;
   font-weight: bold;
+  margin: 0;
 }

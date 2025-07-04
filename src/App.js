@@ -1,7 +1,18 @@
 import React from 'react';
 import './App.css';
+import ProjectCard from './components/ProjectCard/ProjectCard';
 
 function App() {
+  const projects = [
+    {
+      title: 'Wordle Solver',
+      description: 'A simple wordle solver that can do the wordle without you having to input any of the words, just calibrate it for the page size and it does the rest!',
+      image: `${process.env.PUBLIC_URL}/img/wordle-logo.png`,
+      link: "https://github.com/NevPeth/wordle-solver",
+      languages: ['Python']
+    }
+  ];
+
   return (
     <div className="App-container">
       <section id="about-me" className="about-me">
@@ -19,7 +30,12 @@ function App() {
 
       <section id="projects">
         <div className="projects-header">Projects</div>
-        <p>Some of my work...</p>
+        <br/>
+        <div className="projects-grid">
+          {projects.map((p, i) => (
+            <ProjectCard key={i} {...p} />
+          ))}
+        </div>
       </section>
 
       <section id="socials">

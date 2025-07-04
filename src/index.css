@@ -13,6 +13,9 @@ code {
     monospace;
 }
 
-html, body {
-  overscroll-behavior: none;
+#projects,
+#about-me,
+#socials,
+#blog {
+  scroll-margin-top: 70px; 
 }
