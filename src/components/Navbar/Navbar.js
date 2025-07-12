@@ -22,7 +22,6 @@ function Navbar() {
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#socials">Socials</a></li>
-        <li><a href="#blog">Blog</a></li>
       </ul>
     </div>
   );

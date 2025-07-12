@@ -10,6 +10,13 @@ function App() {
       image: `${process.env.PUBLIC_URL}/img/wordle-logo.png`,
       link: "https://github.com/NevPeth/wordle-solver",
       languages: ['Python']
+    },
+    {
+      title: 'Minecraft Mod',
+      description: 'A simple minecraft mod that brings back old wool colors to modern minecraft',
+      image: `${process.env.PUBLIC_URL}/img/minecraft-mod-icon.png`,
+      link: "https://github.com/NevPeth/indev-wool-1.21.1",
+      languages: ['Java']
     }
   ];
 
@@ -39,13 +46,36 @@ function App() {
       </section>
 
       <section id="socials">
-        <h1>Socials</h1>
-        <p>Links to my social media...</p>
-      </section>
+        <div class="socials">
 
-      <section id="blog">
-        <h1>Blog</h1>
-        <p>Get in touch!</p>
+          <a href="https://github.com/NevPeth"
+          target="_blank" 
+          rel="noopener noreferrer">
+          <img
+              src={process.env.PUBLIC_URL + "/img/github-icon.png"}
+              alt="Github Icon"
+              className="social-icon"
+            /></a>
+
+
+          <a href="https://www.linkedin.com/in/neville-pethani-1962a3283/"
+          target="_blank" 
+          rel="noopener noreferrer">
+          <img
+              src={process.env.PUBLIC_URL + "/img/linkedin-icon.png"}
+              alt="Linkedin Icon"
+              className="social-icon"
+            /></a>
+
+          <a href="https://www.instagram.com/nevillethedev/"
+          target="_blank" 
+          rel="noopener noreferrer">
+          <img
+              src={process.env.PUBLIC_URL + "/img/instagram-icon.png"}
+              alt="Instagram Icon"
+              className="social-icon"
+            /></a>
+          </div>
       </section>
     </div>
   );

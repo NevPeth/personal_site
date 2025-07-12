@@ -54,3 +54,27 @@
   font-weight: bold;
   margin: 0;
 }
+
+.projects-grid{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.socials{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social-icon {
+  min-width: 60px;
+  width: 10vw;            
+  max-width: 10vw;       
+  height: auto;
+  object-fit: cover;
+}
